@@ -2,4 +2,8 @@
     <string name="app_name">alarmapp</string>
     <string name="segundos">Segundos...</string>
     <string name="start">Start</string>
+    <string name="start_logger">Start Logger</string>
+    <string name="stop_logger">Stop Logger</string>
+    <string name="alarme">Alarme</string>
+    <string name="logger">Logger</string>
 </resources>
