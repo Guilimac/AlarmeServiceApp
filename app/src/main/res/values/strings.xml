@@ -6,4 +6,11 @@
     <string name="stop_logger">Stop Logger</string>
     <string name="alarme">Alarme</string>
     <string name="logger">Logger</string>
+    <string name="lblLogin">Email...</string>
+    <string name="lblSenha">Senha...</string>
+    <string name="btnLogin">Login</string>
+    <string name="mnuBouond">Bound Service</string>
+    <string name="print_timestamp">Print Timestamp</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="lbltempTime">00:00:00</string>
 </resources>

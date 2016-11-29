@@ -8,9 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
 
         <receiver android:name=".receivers.AlarmReceiver" />
 
@@ -23,9 +21,13 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".services.Logger"
-            android:label="Serviço de Mensagens"
-            />
+        <service
+            android:name=".services.Logger"
+            android:label="Serviço de Mensagens" />
+        <service android:name=".services.BoundService" />
+
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".BoundActivity"></activity>
     </application>
 
 </manifest>
